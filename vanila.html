@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Change Example</title>
+    <style>
+      /* Add your styles here */
+    </style>
+  </head>
+  <body>
+    <p id="textElement" className="text-[#78773d] text-sm font-medium">
+      Moving into Front-End Developer & Member @cpc1337
+    </p>
+
+    <script>
+      // Get the element by its ID
+      var textElement = document.getElementById("textElement");
+
+      // Add a click event listener
+      textElement.addEventListener("click", function () {
+        // Change the text content to "hoooos"
+        textElement.textContent = "hoooos";
+        textElement.style.color = "red";
+      });
+    </script>
+  </body>
+</html>
