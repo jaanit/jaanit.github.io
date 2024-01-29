@@ -1,8 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Display from "./Home";
-import DarkMod from "./darkMod";
-import Image from "next/image";
+
 import Link from "next/link";
 
 export default function NavBar() {
